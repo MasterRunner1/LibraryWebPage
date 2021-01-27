@@ -1,0 +1,52 @@
+body{
+    margin: 0 0 0 0;
+    font-family: monospace;
+}
+hr{
+    border: solid black;
+    margin: 0px;
+}
+#about{
+    font-family: monospace;
+    font-size: 15px;
+}
+a{
+    float: right;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+#menu{
+    list-style-type: none;
+}
+.links{
+    display: inline-block;
+}
+#libcard{
+    background-color: darkred;
+    font-size: 25px;
+    float: right; 
+    padding: 20px;
+}
+#contact{
+    text-align: center;
+    background-color: grey;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+.links #Book{
+    width: 65%; 
+    height: 50%;
+    float: left;
+}
+
+/**
+
+               
+*/
