@@ -6,10 +6,6 @@ hr{
     border: solid black;
     margin: 0px;
 }
-#about{
-    font-family: monospace;
-    font-size: 15px;
-}
 a{
     float: right;
     color: black;
@@ -22,12 +18,13 @@ a:hover{
     color: grey;
     text-decoration: underline;
 }
-#menu{
-    list-style-type: none;
-}
 .links{
     display: inline-block;
 }
+#menu{
+    list-style-type: none;
+}
+
 #libcard{
     background-color: darkred;
     font-size: 25px;
@@ -35,15 +32,18 @@ a:hover{
     padding: 20px;
 }
 #contact{
-    text-align: center;
+    margin: 0 auto;
     background-color: grey;
-    margin-bottom: 0px;
     font-size: 40px;
 }
 .links #Book{
     width: 65%; 
     height: 50%;
     float: left;
+}
+#about{
+    font-family: monospace;
+    font-size: 15px;
 }
 
 /**
